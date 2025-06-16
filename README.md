@@ -24,3 +24,5 @@ Um Drawer simples com as opções de telas, além de Listas e Catergorias de tar
 
 Ao clicar no nome do usuário, no menu, é redirecionado para a tela de configurações, onde é possível visualizar dados do usuário e configurações do App.
 
+😉 Link para Avaliacao de Telas: https://docs.google.com/forms/d/e/1FAIpQLSfKYZPvYqIZdptKwujj9CdJ6ciNwofWDaudfbWDu1jN1S9LDA/viewform?usp=dialog
+
