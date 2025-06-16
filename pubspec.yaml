@@ -16,6 +16,8 @@ dependencies:
   lottie: ^3.3.1
   font_awesome_flutter: ^10.8.0
   dotted_border: ^3.0.1
+  flutter_animated_splash: ^0.0.10
+  xen_popup_card: ^0.0.3+2
 
 dev_dependencies:
   flutter_test:
