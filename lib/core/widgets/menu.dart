@@ -84,7 +84,7 @@ Widget buildMenu(BuildContext context) {
                       Icons.sunny,
                       'Tarefas do Dia',
                       ColorsRepository().yellow,
-                      '/',
+                      '/tasksoftheday',
                     ),
 
                     //favoritos
@@ -93,7 +93,7 @@ Widget buildMenu(BuildContext context) {
                       Icons.star_border_outlined,
                       'Favoritas',
                       ColorsRepository().peach,
-                      '/',
+                      '/tasksoftheday',
                     ),
 
                     //planejados
@@ -111,7 +111,7 @@ Widget buildMenu(BuildContext context) {
                       Icons.done_all,
                       'Todas as Tarefas',
                       ColorsRepository().lightPurple,
-                      '/',
+                      '/tasksoftheday',
                     ),
                   ],
                 ),
@@ -150,14 +150,14 @@ Widget buildMenu(BuildContext context) {
                       Icons.shopping_cart_outlined,
                       'Lista de Compras',
                       ColorsRepository().lightBlue,
-                      '/',
+                      '/tasksoftheday',
                     ),
                     buildItemList(
                       context,
                       Icons.work_outline_rounded,
                       'Tarefas do Trabalho',
                       ColorsRepository().lightBlue,
-                      '/',
+                      '/tasksoftheday',
                     ),
                   ],
                 ),
@@ -194,7 +194,7 @@ Widget buildMenu(BuildContext context) {
                         Icons.fastfood_outlined,
                         'Alimentos',
                         ColorsRepository().celadon,
-                        '/',
+                        '/tasksoftheday',
                       ),
                     ),
 
@@ -205,7 +205,7 @@ Widget buildMenu(BuildContext context) {
                         Icons.school_outlined,
                         'Escola',
                         ColorsRepository().lightPurple,
-                        '/',
+                        '/tasksoftheday',
                       ),
                     ),
                   ],
