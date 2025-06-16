@@ -4,7 +4,6 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:taskmaster/core/colors/colors_repository.dart';
 import 'package:taskmaster/core/widgets/checkbox.dart';
 import 'package:taskmaster/core/widgets/login_options.dart';
-import 'package:taskmaster/presentation/pages/login_page.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});
@@ -146,7 +145,7 @@ class RegisterPage extends StatelessWidget {
                           height: 53,
                           child: ElevatedButton(
                             onPressed: () {
-                              Navigator.pushNamed(context, '/');
+                              Navigator.pushNamed(context, '/tasksoftheday');
                             },
                             style: ButtonStyle(
                               backgroundColor: WidgetStateProperty.all(
@@ -240,11 +239,7 @@ class RegisterPage extends StatelessWidget {
 
                       InkWell(
                         onTap: () {
-                          Navigator.of(context).push(
-                            MaterialPageRoute(
-                              builder: (context) => LoginPage(),
-                            ),
-                          );
+                          Navigator.of(context).pushNamed('/login'); 
                         },
                         child: Text(
                           'Ja possui conta? Entre aqui.',

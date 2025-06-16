@@ -1,7 +1,7 @@
 import 'package:dotted_border/dotted_border.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:taskmaster/core/colors/colors_repository.dart';
+import 'package:taskmaster/core/widgets/add_new__task.dart';
 import 'package:taskmaster/core/widgets/menu.dart';
 
 class TasksOfTheDay extends StatefulWidget {
@@ -91,6 +91,7 @@ class _TasksOfTheDayState extends State<TasksOfTheDay> {
                     padding: const EdgeInsets.only(top: 20.0),
                     child: InkWell(
                       onTap: () {
+                        buildShowDialog(context);
                       },
                       child: Center(
                         child: DottedBorder(
@@ -141,31 +142,7 @@ class _TasksOfTheDayState extends State<TasksOfTheDay> {
             ),
           ),
 
-          Align(
-            alignment: Alignment.bottomRight,
-            child: Padding(
-              padding: const EdgeInsets.all(60.0),
-              child: InkWell(
-                onTap: () => {
-                  // cria nova tarefa
-                },
-                child: Transform.scale(
-                    scale: 1.7 ,
-                    child: Material(
-                      shape: const CircleBorder(side: BorderSide.none),
-                      elevation: 4,
-                      child: CircleAvatar(
-                        backgroundColor: ColorsRepository().pennBlue,
-                        child: Icon(
-                          FontAwesomeIcons.plus,
-                          color: ColorsRepository().lightBlue,
-                        ),
-                      ),
-                    ),
-                  ),
-              ),
-            ),
-          )
+          buildAddTaskButton(context)
         ],
       ),
     );
