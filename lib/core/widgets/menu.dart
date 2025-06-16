@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:taskmaster/core/colors/colors_repository.dart';
 import 'package:taskmaster/core/widgets/items_list.dart';
 
@@ -94,7 +93,7 @@ Widget buildMenu(BuildContext context) {
                       Icons.star_border_outlined,
                       'Favoritas',
                       ColorsRepository().peach,
-                      '/favorites',
+                      '/',
                     ),
 
                     //planejados
@@ -103,7 +102,7 @@ Widget buildMenu(BuildContext context) {
                       Icons.calendar_month_outlined,
                       'Planejados',
                       ColorsRepository().lightBlue,
-                      '/',
+                      '/planned',
                     ),
 
                     //todas as tarefas

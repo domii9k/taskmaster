@@ -14,6 +14,7 @@ class ColorsRepository {
   final Color _celadon = Color(0XFFADF7B6);
   final Color _peach = Color(0XFFFFC09F);
   final Color _lightPurple = Color(0XFFCFBAE1);
+  final Color _extraLightPurple = Color(0XFFE9D4FB);
 
   Color get white => _white;
   Color get lightBlue => _lightBlue;
@@ -28,4 +29,6 @@ class ColorsRepository {
   Color get celadon => _celadon;
   Color get peach => _peach;
   Color get lightPurple => _lightPurple;
+  Color get extraLightPurple => _extraLightPurple;
+
 }
